@@ -1,0 +1,22 @@
+{
+  "name": "hexawise-coinbase-deposits-api-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hexawise/coinbase-api-sample-plan.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hexawise/coinbase-api-sample-plan/issues"
+  },
+  "homepage": "https://github.com/Hexawise/coinbase-api-sample-plan#readme",
+  "dependencies": {
+    "@cucumber/cucumber": "^7.0.0-rc.0"
+  }
+}
