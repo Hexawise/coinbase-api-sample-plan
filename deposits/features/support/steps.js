@@ -7,7 +7,11 @@ Given(/a payment method of type (.*) and currency (.*)/, async function(type, cu
 });
 
 When(/I make a (.*) deposit/, async function(size) {
-  await this.makeDeposit(size);
+  const amountSizes = {
+    'small': '100.00',
+    'large': '10000.00'
+  };
+  await this.makeDeposit(amountSizes[size]);
 });
 
 Then(/the response (.*) should be (.*)/, function(field, value) {
