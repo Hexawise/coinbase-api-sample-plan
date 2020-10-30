@@ -1,1 +1,4 @@
+# for storing coinbase api creds
+.env
+
 node_modules/
